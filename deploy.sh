@@ -8,7 +8,7 @@ if [ 'master' != $TRAVIS_BRANCH ]; then
 fi
 
 # run our compile script
-hugo
+hugo --theme=cocoa
 
 # sync with remote folder
 rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/public/ deploy@bjug.by:~/files/bjug.by
