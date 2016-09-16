@@ -1,0 +1,30 @@
+baseurl = "https://bjug.by/"
+builddrafts = false
+canonifyurls = true
+contentdir = "content"
+languageCode = "en-US"
+layoutdir = "layouts"
+publishdir = "public"
+author = "Ruslan Ibragimov"
+title = "Belarus Java User Group"
+pygmentsuseclasses = true
+disqusShortname = "bjug-by"
+pluralizelisttitles = false
+theme = "cocoa"
+
+[permalinks]
+fixed = ":title/"
+blog = "blog/:slug/"
+
+[params]
+Author = "Belarus Java User Group"
+CacheBuster = true
+DateForm = "Jan 2, 2006"
+DateFormFull = "Mon Jan 2 2006 15:04:05 MST"
+Description = "Анонсы и события из мира Java платформы в Беларуси"
+Email = "ruslan@ibragimov.by"
+FaviconFile = "img/leaf.ico"
+GitHub = "//github.com/Heapy/bjug.by"
+HighlightJS = true
+Lang = "en"
+Twitter = "//twitter.com/BelarusKUG"
