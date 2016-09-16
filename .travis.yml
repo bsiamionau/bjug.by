@@ -1,3 +1,5 @@
+sudo: required
+dist: trusty
 addons:
   ssh_known_hosts: bjug.by
 before_install:
